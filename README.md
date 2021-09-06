@@ -21,5 +21,7 @@ This site is made to provide the users with the following:
 - [ ] Portal
 - [ ] Honor
 - [ ] Currencies
+- [ ] Commands
+- [ ] Events
 
 
