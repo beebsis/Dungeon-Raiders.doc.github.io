@@ -1,8 +1,136 @@
-body {
-    background: black;
-    text-align: center;
+:root {
+    --background: #02273a;
+    --div: #052b3d;
+    --default-text: #f5fee8;
+    --warning: #f58e6e;
+    --buildings: #fbc49c;
+    --utilities: #89d2e7;
+    --relics: #58e4a9;
 }
 
-h1, p {
-    color: white;
+body {
+    background-color: var(--main-color);
+}
+
+h1, h2, h3,
+li, a, p, button{
+    font-family: 'Space Mono', monospace;
+    color: var(--text1);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--h1);
+}
+
+li, a {
+    text-decoration: none;
+    color: var(--text1);
+    font-size: 20px;
+    cursor: pointer
+}
+
+._navActive {
+    font-weight: bold;
+    border-bottom: 2px solid var(--h1);
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1224px;
+    margin: 0 auto;
+    margin-top: 15vh;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    align-content: center;
+}
+
+.nav__links {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav__links a:hover {
+    color: var(--h1);    
+}
+
+.content-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.box {
+    width: 320px;
+    height: 320px;
+    background-color: var(--filler);
+    margin: 1vh;
+    border-radius: 2vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.box4 {
+    flex-grow: 7;
+}
+
+.box-padding {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box-padding > * {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: var(--button); 
+    color: var(--text1);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1vh;
+    border-radius: 1em;
+    max-height: 62px;
+    max-width: 128px;
+
+}
+
+button:hover {
+    background-color: var(--h1);
 }
