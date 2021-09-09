@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Mono:wght@400;700&display=swap');    
-    /*
+:root {
+  --background: #28272E;
+  --div: #34333A;
+  --default-text: #f5fee8;
+  --warning: #f58e6e;
+  --building: #fbc49c;
+  --utility: #89d2e7;
+  --relic: #58e4a9;
+  --character: #9aea80;
+}    
+
+/*
         
     
         font-family: 'Major Mono Display', monospace;
