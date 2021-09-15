@@ -1,0 +1,51 @@
+{
+    "equipment": [
+        {
+            "belt": [
+                {   
+                    "_comment": " levelC stands for Level color. Which is the icon colours",
+                    "levelC": [
+                        {
+                            "orangeBlack": [
+                                {
+                                    "stats": [
+                                        {
+                                            "attack": "",
+                                            "attackSpeed": "",
+                                            "dogde": "",
+                                            "armour": "",
+                                            "furyGain": "",
+                                            "lifeSteal": "",
+                                            "healthRegen": "",
+                                            "critHit": "",
+                                            "health": ""
+                                            
+                                        }
+                                    ]
+                                }
+                            ],
+                            "puråleBlack": [
+                                {
+                                    "stats": [
+                                        {
+                                            "attack": "",
+                                            "attackSpeed": "",
+                                            "dogde": "",
+                                            "armour": "",
+                                            "furyGain": "",
+                                            "lifeSteal": "",
+                                            "healthRegen": "",
+                                            "critHit": "",
+                                            "health": ""
+                                            
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
