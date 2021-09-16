@@ -1,0 +1,45 @@
+p {
+    color: var(--default-text)
+}
+
+.warning {
+    color: var(--warning);
+}
+
+.building {
+    color: var(--building);
+}
+
+.utility {
+    color: var(--utility);
+}
+
+.relic {
+    color: var(--relic);
+}
+
+.character {
+    color: var(--character)
+}
+
+
+/*      BACKGROUNDS     */
+.warning-bg {
+    background-color: var(--warning);
+}
+
+.building-bg {
+    background-color: var(--building);
+}
+
+.utility-bg {
+    background-color: var(--utility);
+}
+
+.relic-bg {
+    background-color: var(--relic);
+}
+
+.character-bg {
+    background-color: var(--character)
+}
