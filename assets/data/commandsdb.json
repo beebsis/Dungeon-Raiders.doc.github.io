@@ -1,0 +1,14 @@
+{
+    "commands": [
+        {
+            "commandID": "01",
+            "command": [
+                {
+                    "name": "name of command",
+                    "alias": "alises",
+                    "desc": "command description"
+                }
+            ]
+        }
+    ]
+}

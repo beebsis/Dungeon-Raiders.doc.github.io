@@ -1,0 +1,21 @@
+{
+    "hall of fame": [
+        {
+            "ByFd": [
+                {
+                    "playerDesc": "test info"
+                }
+            ],
+            "LawTRIBAL": [
+                {
+                    "playerDesc": "test info" 
+                }
+            ],
+            "Razzor": [
+                {
+                    "playerDesc": "test info"   
+                }
+            ]
+        }
+    ]
+}
