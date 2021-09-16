@@ -23,6 +23,7 @@ This site is made to provide the users with the following:
 - [ ] Currencies
 - [ ] Commands
 - [ ] Events
+
 Possible things in the future
 - [ ] Stat calculator
 - [ ] Stat weights
