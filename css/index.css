@@ -7,6 +7,7 @@
     --utility: #89d2e7;
     --relic: #58e4a9;
     --character: #9aea80;
+    --text-link: #28272E;
 }
 
 body {
@@ -60,6 +61,13 @@ ul, li, a {
     font-size: 1.5rem;
     text-transform: uppercase;
     padding: 0;
+    border-bottom: 3px solid transparent;
+    transition: all ease-in-out 0.2s;
+}
+
+._navActive {
+    font-weight: bold;
+    border-bottom: 3px solid var(--character);
 }
 
 .banner {
@@ -99,13 +107,18 @@ ul, li, a {
     justify-content: space-evenly;
     align-content: space-around;
     align-items: space-around;
-    margin-top: 5rem;
+    margin-top: 2vw;
     background-color: var(--div);
     padding: 2rem;
 }
 
 .spt {
     font-size: 2vh;
+}
+
+.fab {
+    max-width: 41px;
+    max-height: 41px;
 }
 
 .fa-twitch {
@@ -168,6 +181,8 @@ ul, li, a {
 
 
 .underC {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -199,11 +214,14 @@ ul, li, a {
     }
 
     .support-links {
-        margin-top: 5vw;;
+        margin-top: 2vw;
+        flex-direction: column;
     }
     
     .spt {
-        font-size: 1em;
+        font-size: 10vw;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
     }
 
     .card {
