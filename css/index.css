@@ -183,12 +183,39 @@ ul, li, a {
 .underC {
     margin-top: 1vw;
     margin-bottom: 1vw;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    height: 4vw;
 }
 
+/*      FOOTER CARDS        */
 
 
+.footer {
+    margin-top: 2vw;
+}
+
+.footer-child {
+    background: var(--div);
+}
+.footer-card {
+    max-height: 200px;
+    height: 100%;
+    padding: 1vw;
+    transition: all ease-in-out 0.2s;
+    background-color: var(--div);
+    margin-top: 2vh;
+    margin-bottom: 2vw;
+}
+
+.footer-card h3 {
+    text-transform: uppercase;
+    padding-bottom: 1vw;
+}
+
+.user-contact {
+    color: var(--utility);
+}
 
 /*      EXTRA RESPONSIVENESS AND DESIGN     */
 @media only screen and (max-width: 1080px) {
