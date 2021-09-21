@@ -45,7 +45,7 @@ ul, li, a {
 }
 
 .head-title-text {
-    margin: 2em 0em 2em 0em;
+    margin: 0em 0em 2em 0em;
     max-width: 70%;
     align-self: center;
     text-align: center;
@@ -63,19 +63,16 @@ ul, li, a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
-    align-items: space-around;
+    align-items: flex-start;
     margin-top: 2vw;
     background-color: var(--div);
     padding: 2rem;
 }
 
-.spt {
-    font-size: 2vh;
-}
-
-.fab {
-    max-width: 41px;
-    max-height: 41px;
+.fab, .fas {
+    width: 41px;
+    height: 41px;
+    padding-right: 15px;
 }
 
 .fa-twitch {
@@ -94,6 +91,20 @@ ul, li, a {
     
 }*/
 
+.spt {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.spt a {
+    font-size: 1.5em;
+    transition: all ease-in-out 0.2s
+}
+
+.spt a:hover {
+    color: var(--text-link)
+}
+
 .card-flex {
     margin-top: 2vh;
     display: flex;
@@ -105,7 +116,7 @@ ul, li, a {
 .card {
     max-width: 325px;
     width: 100%;
-    max-height: 200px;
+    max-height: 215px;
     height: 100%;
     text-align: center;
     padding: 1vw;
@@ -131,18 +142,14 @@ ul, li, a {
     border-radius: 15px;
 }
 
-.card:hover {
-    padding-top: 15px;
-    background-color: var(--div);
-}
 
+/*      UNDER CONSTRUCTION      */
 
 .underC {
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    height: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 /*      EXTRA RESPONSIVENESS AND DESIGN     */
@@ -164,21 +171,15 @@ ul, li, a {
         margin-top: 5vw;
     }
 
-    .support-links {
-        margin-top: 2vw;
-        flex-direction: column;
-    }
-    
-    .spt {
-        font-size: 10vw;
-        margin-top: 1.5vw;
-        margin-bottom: 1.5vw;
-    }
-
     .card {
         margin: 0 auto;
         margin-bottom: 5vw;
         padding-bottom: 5vw;
         max-width: 40vw;
+    }
+
+    .support-links {
+        margin-top: 2vw;
+        flex-wrap: wrap;
     }
 }

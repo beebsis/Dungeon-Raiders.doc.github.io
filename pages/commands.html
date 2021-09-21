@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/ezCSS.css">
-        <link rel="stylehseet" href="../css/commands.css">
+        <link rel="stylesheet" href="../css/commands.css">
         <title>Dungeon Raiders Commands</title>
     </head>
 <body>
@@ -17,23 +17,38 @@
                 <img src="../assets/img/banner.png" alt="Dungeon Raiders Banner">
             </div>
             <div class="header">
-
+                <a href="../index.html"><p><i class="fas fa-chevron-left back-arrow"></i>Go Back</p></a>
             </div>
             <div class="commands">
-                <div class="starter">
+                <div class="starter section">
                     <h2 class="command-header">Get started</h2>
                     <label for="New Players"></label>
-                    <p>In order to get started..................</p> 
+                    <p>
+                        In order to get started you'll have to make a character by typing <span>!join class.</span>
+                        You can pick between 5 classes currently <span>(21-09-2021)</span>, farmer, rogue, warrior, ranger and wizard.
+                        Each class has their pros and cons. We recommend trying each one out for a bit.
+                        You can read more about the different classes and their utility in the game on the <a href="./characters.html"><span>Character section.</span></a>
+                    </p>
+                    <div class="command-text">
+                        <p>Command: <span>!join class</span></p>
+                        <p>Usable when: <span>No joined character</span></p>
+                    </div>
                 </div>
 
-                <div class="skills">
-                    <h2 class="command-header">skills</h2>
+                <div class="skills section">
+                    <h2 class="command-header">Skills</h2>
                     <label for="skills">How to use skills</label>
-                    <p class="command-description">......................</p>
-                    <p>!setskill <span>1, 2, 3</span></p>
+                    <p class="command-description">
+                        Each Character has 3 skills, you might want to change skill depending on the situation, composition of for testing.
+                        There are both defense, offense and utility abilities in this game. Use them according to the situation.
+                    </p>
+                    <div class="command-text">
+                        <p>Command: <span>!setskill #</span></p>
+                        <p>Usable when: <span>In town</span></p>
+                    </div>
                 </div>
 
-                <div class="talents">
+                <div class="talents section">
                     <h2 class="command-header">Talents</h2>
                     <label for="How to use talents">How to use talents</lab>
                     <p class="command-description">......................</p>
@@ -52,7 +67,7 @@
                     </ul>
                 </div>
                 
-                <div class="auras">
+                <div class="auras section">
                     <h2 class="command-header">Auras</h2>
                     <label for="How to use auras">How to use auras</label>
                     <p class="command-description">......................</p>
@@ -65,7 +80,7 @@
                     </ul>
                 </div>
                 
-                <div class="structures">
+                <div class="structures section">
                     <h2 class="command-header">Buildings</h2>
                     <label for="How to use auras">How to use Building</label>
                     <p class="command-description">.....................</p>
