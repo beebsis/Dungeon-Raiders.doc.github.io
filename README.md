@@ -13,19 +13,19 @@ Another option would be to host this on my own website atm, then we could pretty
 4. Player contribution to this project.
 
 ## The following will be added
-- [ ] Home page
+- [X] Home page
 - [ ] Characters & abilities
 - [ ] Enemies & abilities
 - [ ] Building details
 - [ ] Stats
-- [ ] Talents
-- [ ] Aruas
-- [ ] Relics
+- [X] Talents
+- [X] Auras
+- [X] Relics
 - [ ] Items
 - [ ] Portal
 - [ ] Honor
 - [ ] Currencies
-- [ ] Commands
+- [X] Commands
 - [ ] Events
 
 Possible things in the future
