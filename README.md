@@ -2,7 +2,11 @@
 
 This is a site made for Dungeon Raiders on Twitch, developed by Ero to keep a clean a nice documentation. Fixes the players problems when it comes to navigating through the currency docs.
 
-This site is made to provide the users with the following:
+## Change of Plans!
+GitHub Pages only supports purely static website, we thought that maybe we could use .json to make some stuff easier than usual. However, since CORS isn't allowed/enabled, then we're unable to do so and would require a different service if it was.
+Another option would be to host this on my own website atm, then we could pretty much do as we're pleased. But 1 problem at a time.
+
+## This site is made to provide the users with the following:
 1. Easy lookup.
 2. Good user experiance.
 3. Detailed mechanic descriptions.
