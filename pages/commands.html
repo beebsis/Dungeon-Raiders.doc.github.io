@@ -47,7 +47,7 @@
                         <p><span>Command:</span> !rest - Character resting</p>
                         <p><span>Command:</span> !stop - </p>
                         <p><span>Command:</span> !raid - Starts / joins a raid or boss</p>
-                        <p><span>Command:</span> !portal - Enters the portal (250+ lvl)</p>
+                        <p><span>Command:</span> !portal - Enters the portal (200+ lvl)</p>
                         <p><span>Command:</span> !redeem# - Redeems buffs for honor points</p>
                     </div>
                 </div>
@@ -71,6 +71,8 @@
                         
                         Relics can be obtained by defeating Dungeon Bosses and Underworld Guardians, as well as buying them in the Town Shop where they are on sale and they can be in chests. Relics require level 100+ to equip, and are linked to the account. You can upgrade their effects by enhancing them with the help from the Witch.
                         After a first portal raid you can find the witch. In the chapter about the town there is more information about the witch
+                    </br>
+                        <span>You gain relic slots at: lvl 100, level 500 & level 1000</span>
 
                     </p>
                     <div class="command-text">
@@ -78,63 +80,106 @@
                         <p>Command: <span>!setrelic#</span> - Sets a relic in the specified slot</p>
                     </div>
                     <div class="cmd-list">
-                        <h3>List of talents:</h3>
+                        <h3>List of relics:</h3>
                         
                         <div class="tooltip-wrapper">
-                            <span>1.) </span> Damage
+                            <span>1.) </span> Undying Faith
                             <span class="tooltipC">
-                                Your base damage. This is the amount of damage you will deal to an enemy with “1” armor
+                                After receiving lethal damage, you are invulnerable for a few seconds, then you recover all your HP (1 time only).
+                                Effect: Invulnerable for 3s + 1s per level.
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>2.) </span> Attack Speed
+                            <span>2.) </span> Divine Grace
                             <span class="tooltipC">
-                                This indicates how many basic attacks you will do each second
+                                Your basic attacks will execute demons when they are low on HP. (50% effect on Guardians).
+                                Effect: Execute when reaching 15% hp + 5% per level.
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>3.) </span> Dodge
+                            <span>3.) </span> Blood Transmutator
                             <span class="tooltipC">
-                                Each time you get attacked, you have a chance to dodge the attack. This represents your chance to dodge
+                                Convert some of the exceeding healing you get into a shield.
+                                Effect: Maximum shield capacity equals 15% of your max HP + 5% per level
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>4.) </span> Armor
+                            <span>4.) </span> Combat Knowledge
                             <span class="tooltipC">
-                                Armor will reduce the amount of damage you receive. It’s value slowly decreases, but it has no cap:
-                                e.g. originalDamage / armor = damageReceived </br>100 2 = 50
+                                Your ability fury cost increase is lower.
+                                Effect: Divide the base cost increase by 2 + level.
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>5.) </span> Fury Gain
+                            <span>5.) </span> Tree of Life
                             <span class="tooltipC">
-                                This represents the amount of fury you will gain each time you successfully hit an enemy with a basic attack. Missing a basic attack will generate half of your fury/hit
+                                Increase your HP/s depending on how much HP you are missing.
+                                Effect: 50% + 25% per level of your HP/s at 0% HP.
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>6.) </span> Life Steal
+                            <span>6.) </span> Warlord
                             <span class="tooltipC">
-                                You will heal this % amount of the damage you deal each time you successfully hit an enemy with a basic attack. Keep in mind that lifesteal applies only to physical damage, and it is based on the damage dealt, not your base damage stat
+                                Your special damage will benefit from part of your lifesteal.
+                                Effect: 15% of your lifesteal + 5% per level.
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>7.) </span> Health Regen
+                            <span>7.) </span> Executioner
                             <span class="tooltipC">
-                                You will heal this amount of HP every second while you are in combat
+                                Your critical strikes deal even more damage.
+                                Effect: 3x damage + 1x per level.
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>8.) </span> Critical Hit
+                            <span>8.) </span> Invisibility Cloak
                             <span class="tooltipC">
-                                Each attack has a chance of being a critical hit, just like the dodge mechanic. Critical hits do 2x damage, and also count as basic attacks
+                                You can dodge critical strikes and mitigate a higher amount of damage plus reduce enemy fury gain when dodging.
+                                Effect: Divide the damage received when dodging by 2 + level.
                             </span>
                         </div>
                         <div class="tooltip-wrapper">
-                            <span>9.) </span> Hitpoints
+                            <span>9.) </span> Kenji’s staff
                             <span class="tooltipC">
-                                This stat defines how much damage you can receive. Damage received is first reduced by your armor, dodge, etc, then applied to your current health (HP).
+                                When casting your ability, deal special damage based on your fury and damage to nearby enemies.
+                                Effect: Damage dealt is your Damage/2000 * Fury/hit * (100 + level*10). Range is 200 + 10 per level.
                             </span>
-                        </div>                          
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>10.) </span> Claws of Sim
+                            <span class="tooltipC">
+                                While you are fighting, enemy deaths increase your damage for 6s.
+                                Effect: Damage increased by 0.005% + 0.0025% of your base Damage per level.
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>11.) </span> Shield of Sim
+                            <span class="tooltipC">
+                                While you are fighting, enemy deaths increase your HP for 6s.
+                                Effect: HP increased by 0.005% + 0.0025% of your base Max HP per level.!train
+                             </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>12.) </span> Armor Oxidizer
+                            <span class="tooltipC">
+                                Your basic attacks will reduce your target's armor.
+                                Effect: -0.002 + 0.001 armor per level.
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>13.) </span> Guardian’s Covenant
+                            <span class="tooltipC">
+                                Redirect part of the damage your allies take to you as special damage (does not have effect on redirected damage).
+                                Effect: Divide the damage taken by 1.10 + 0.05 per level.
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>14.) </span> Unstable Matter
+                            <span class="tooltipC">
+                                Your special damage has a 50% chance of dealing increased damage.
+                                Effect: 50% + 25% extra damage per level.
+                            </span>
+                        </div>                       
                     </div>
                     <div class="gold-corn">
                         <h3 class="crit">Gold corn</h3>
@@ -210,18 +255,49 @@
                     <p><span>Command:</span> !sellgem<span>#</span> - Sells X amount of gems for 1m each</p>
                     <p><span>Command:</span> !chest<span>#</span> - Choose a chest</p>
                 </div>
+                
+                <div class="combat-section section">
+                    <h2 class="command-header">Combat</h2>
+                    <label for="How to use auras">Combat Commands</label>
+                    <p class="command-description">Commands you can use in raids</p>
+                    <p><span>Command:</span> !potion/!pot - pops a potion </p>
+                    <p><span>Command:</span> !surrender/!ff - forfeit the match</p>
+                    <p><span>Command:</span> !keep - </p>
+                    <p><span>Command:</span> !reroll - </p>
+                    <p><span>Command:</span> !loot - Loot relic</p>
+                    <p><span>Command:</span> !retreat - Retreats from going into a raid</p>
+                </div>    
 
                 <div class="extras-section section">
                     <h2 class="command-header">Extras</h2>
                     <label for="How to use auras">Utility Commands</label>
-                    <p class="command-description">......................</p>
-                    <p>!talent <span>#</span></p>
-                    <ul>
-                        <li>Aura 1</li>
-                        <li>Aura 2</li>
-                        <li>Aura 3</li>
-                        <li>Aura 4</li>
-                    </ul>
+                    <p class="command-description">These are most of the information commands</p>
+                    <p><span>Command:</span> !me - shows some stats</p>
+                    <p><span>Command:</span> !honor - shows your honor amount</p>
+                    <p><span>Command:</span> !mystats - shows all your stats</p>
+                    <p><span>Command:</span> !mytalents - shows your talents</p>
+                    <p><span>Command:</span> !myvocations - Shows your vocations(levels or professions)</p>
+                    <p><span>Command:</span> !myauras - Shows your auras</p>
+                    <p><span>Command:</span> !myitems - Shows your items</p>
+                    <p><span>Command:</span> !myrelics - Shows your relics</p>
+                    <p><span>Command:</span> !myskills - Shows your skills</p>
+                    <p><span>Command:</span> !diary - Shows your private quest progression</p>
+                </div>
+
+                <div class="other-section section">
+                    <h2 class="command-header">Other</h2>
+                    <label for="How to use auras">Other Commands</label>
+                    <p class="command-description">Other types of commands you can use.</p>
+                    <p><span>Command:</span> !donate -  </p>
+                    <p><span>Command:</span> !!gem -  </p>
+                    <p><span>Command:</span> !witch -  </p>
+                    <p><span>Command:</span> !savebuild -  </p>
+                    <p><span>Command:</span> !loadbuild -  </p>
+                    <p><span>Command:</span> !help -  </p>
+                    <p><span>Command:</span> !discord -  </p>
+                    <p><span>Command:</span> !credits -  </p>
+                    <p><span>Command:</span> !bunny -  </p>
+                    <p><span>Command:</span> !commands -  </p>
                 </div>
             </div>
         </div>
