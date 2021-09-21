@@ -21,9 +21,11 @@ span {
     color: var(--relic);
 }
 
+/* Font doesn't work well with list*/
 p, li {
     line-height: 2em;
 }
+
 
 .command-header {
     margin-bottom: 1rem;
@@ -31,4 +33,40 @@ p, li {
 
 .command-text {
     margin-top: 1rem;
+}
+
+.cmd-list {
+    margin-top: 1rem;
+}
+
+.tooltipC {
+    border: 1px solid red;
+    margin-left: 6rem;
+}
+
+.tooltip-wrapper {
+    position: relative;
+}
+
+.tooltip-wrapper .tooltipC {
+    visibility: hidden;
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-wrapper .tooltipC:after {
+    content: "";
+    position: absolute;
+}
+
+.tooltip-wrapper:hover .tooltipC {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gold-corn {
+    margin-top: 2vw;
 }

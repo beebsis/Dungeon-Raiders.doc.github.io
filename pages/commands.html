@@ -18,20 +18,37 @@
             </div>
             <div class="header">
                 <a href="../index.html"><p><i class="fas fa-chevron-left back-arrow"></i>Go Back</p></a>
+                <span>Last updated: 21-09-2021 </br> Version: alpha v2.92</span>
             </div>
             <div class="commands">
                 <div class="starter section">
                     <h2 class="command-header">Get started</h2>
-                    <label for="New Players"></label>
+                    <label for="New Players">New Players</label>
                     <p>
                         In order to get started you'll have to make a character by typing <span>!join class.</span>
-                        You can pick between 5 classes currently <span>(21-09-2021)</span>, farmer, rogue, warrior, ranger and wizard.
+                        You can pick between 5 classes, farmer, rogue, warrior, ranger and wizard.
                         Each class has their pros and cons. We recommend trying each one out for a bit.
                         You can read more about the different classes and their utility in the game on the <a href="./characters.html"><span>Character section.</span></a>
                     </p>
                     <div class="command-text">
                         <p>Command: <span>!join class</span></p>
-                        <p>Usable when: <span>No joined character</span></p>
+                    </div>
+                </div>
+                <div class="town section">
+                    <h2 class="command-header">Town</h2>
+                    <label for="Town Commands">Town commands</label>
+                    <p>
+                        Quick overview over the most used commands in town.
+                    </p>
+                    <div class="command-text">
+                        <p><span>Command:</span> !join - Join with a character</p>
+                        <p><span>Command:</span> !quit - Leave the game</p>
+                        <p><span>Command:</span> !train - Trains your character</p> 
+                        <p><span>Command:</span> !rest - Character resting</p>
+                        <p><span>Command:</span> !stop - </p>
+                        <p><span>Command:</span> !raid - Starts / joins a raid or boss</p>
+                        <p><span>Command:</span> !portal - Enters the portal (250+ lvl)</p>
+                        <p><span>Command:</span> !redeem# - Redeems buffs for honor points</p>
                     </div>
                 </div>
 
@@ -44,32 +61,199 @@
                     </p>
                     <div class="command-text">
                         <p>Command: <span>!setskill #</span></p>
-                        <p>Usable when: <span>In town</span></p>
                     </div>
                 </div>
 
-                <div class="talents section">
-                    <h2 class="command-header">Talents</h2>
-                    <label for="How to use talents">How to use talents</lab>
-                    <p class="command-description">......................</p>
-                    <p>!talent <span>#</span></p>
+                <div class="relic section">
+                    <h2 class="command-header">Relics</h2>
+                    <label for="How to use relics">How to use relics</lab>
+                    <p class="command-description">
+                        
+                        Relics can be obtained by defeating Dungeon Bosses and Underworld Guardians, as well as buying them in the Town Shop where they are on sale and they can be in chests. Relics require level 100+ to equip, and are linked to the account. You can upgrade their effects by enhancing them with the help from the Witch.
+                        After a first portal raid you can find the witch. In the chapter about the town there is more information about the witch
 
-                    <ul>
-                        <li>talent 1</li>
-                        <li>talent 2</li>
-                        <li>talent 3</li>
-                        <li>talent 4</li>
-                        <li>talent 5</li>
-                        <li>talent 6</li>
-                        <li>talent 7</li>
-                        <li>talent 8</li>
-                        <li>talent 9</li>
-                    </ul>
+                    </p>
+                    <div class="command-text">
+                        <p>Command: <span>!myrelics</span> - Checks your relics</p>
+                        <p>Command: <span>!setrelic#</span> - Sets a relic in the specified slot</p>
+                    </div>
+                    <div class="cmd-list">
+                        <h3>List of talents:</h3>
+                        
+                        <div class="tooltip-wrapper">
+                            <span>1.) </span> Damage
+                            <span class="tooltipC">
+                                Your base damage. This is the amount of damage you will deal to an enemy with “1” armor
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>2.) </span> Attack Speed
+                            <span class="tooltipC">
+                                This indicates how many basic attacks you will do each second
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>3.) </span> Dodge
+                            <span class="tooltipC">
+                                Each time you get attacked, you have a chance to dodge the attack. This represents your chance to dodge
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>4.) </span> Armor
+                            <span class="tooltipC">
+                                Armor will reduce the amount of damage you receive. It’s value slowly decreases, but it has no cap:
+                                e.g. originalDamage / armor = damageReceived </br>100 2 = 50
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>5.) </span> Fury Gain
+                            <span class="tooltipC">
+                                This represents the amount of fury you will gain each time you successfully hit an enemy with a basic attack. Missing a basic attack will generate half of your fury/hit
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>6.) </span> Life Steal
+                            <span class="tooltipC">
+                                You will heal this % amount of the damage you deal each time you successfully hit an enemy with a basic attack. Keep in mind that lifesteal applies only to physical damage, and it is based on the damage dealt, not your base damage stat
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>7.) </span> Health Regen
+                            <span class="tooltipC">
+                                You will heal this amount of HP every second while you are in combat
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>8.) </span> Critical Hit
+                            <span class="tooltipC">
+                                Each attack has a chance of being a critical hit, just like the dodge mechanic. Critical hits do 2x damage, and also count as basic attacks
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>9.) </span> Hitpoints
+                            <span class="tooltipC">
+                                This stat defines how much damage you can receive. Damage received is first reduced by your armor, dodge, etc, then applied to your current health (HP).
+                            </span>
+                        </div>                          
+                    </div>
+                    <div class="gold-corn">
+                        <h3 class="crit">Gold corn</h3>
+                      <p>
+                        Note that there are 2 types of damage: physical damage and special damage:
+                        Physical damage gets reduced by the target’s armor, and can also result in a dodge or a critical hit, as well as benefiting from lifesteal.
+                        Special damage cannot critically strike, be dodged, or apply lifesteal, but it will ignore 50% of the target’s armor.
+                        Additionally, there are status effects: bleed and poison:
+                        Bleed deals 10% of the target’s max HP over 3 seconds and reduces its healing by 50%, it can not stack with other bleed fonts, in case that happens, the 3 second timer will reset but no damage will be added. Bleed damage does not get reduced by armor.
+                        Poison also deals damage over time, but unlike bleeding it can stack multiple times, not resetting the duration but adding the damage. Poison will also slow its target, and will ignore 50% of the target’s armor. Each stack lasts 5s.
+                        Status effects do not count as special damage.
+                      </p>
+                    </div>
                 </div>
                 
                 <div class="auras section">
                     <h2 class="command-header">Auras</h2>
                     <label for="How to use auras">How to use auras</label>
+                    <p class="command-description">
+                        Auras are an extra stat bonus that will increase without limit as you progress. They are obtained from Guardians in the Underworld, and everyone that enters the portal will get them, no matter if they survived the floor where it got dropped or not. You can project your Aura at level 200+ and you can only have 1 active Aura at a time.
+                        You need some Aura before you can use it, so join a Portal run, but for that you need to be at level 200 or higher. Not every aura will become available during a Portal raid, so you may need to join more portal raids before you can activate the one you want to use.</p>
+                    <p><span>Command:</span>!setaura <span>#</span> - Set your aura</p>
+                    <h4 class="warning">Requres: <span class="link-text">Hero+ status</span></h4>
+                    <p><span>Command:</span>!setraidaura <span>#</span> - Set an aura for raiding/guarding</p>
+                    <p><span>Command:</span>!setmineaura <span>#</span> - Set an aura for mining</p> 
+                    <p><span>Command:</span>!settrainaura <span>#</span> - Sets an aura for traning</p>
+                    <div class="cmd-list">
+                        <h3>List of auras:</h3>
+                        <div class="tooltip-wrapper">
+                            <span>1.) </span> Vitality
+                            <span class="tooltipC">
+                                Increases Maximum hitpoints and healing
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>2.) </span> Wisdom
+                            <span class="tooltipC">
+                                Increases experiance gain
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>3.) </span> Braveness
+                            <span class="tooltipC">
+                                Damange and critical chance increase
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>4.) </span> Abundance
+                            <span class="tooltipC">
+                                Gold & farming rate increase
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="auras section">
+                    <h2 class="command-header">Auras</h2>
+                    <label for="How to use auras">How to use auras</label>
+                    <p class="command-description">
+                        Auras are an extra stat bonus that will increase without limit as you progress. They are obtained from Guardians in the Underworld, and everyone that enters the portal will get them, no matter if they survived the floor where it got dropped or not. You can project your Aura at level 200+ and you can only have 1 active Aura at a time.
+                        You need some Aura before you can use it, so join a Portal run, but for that you need to be at level 200 or higher. Not every aura will become available during a Portal raid, so you may need to join more portal raids before you can activate the one you want to use.</p>
+                    <p><span>Command:</span>!setaura <span>#</span> - Set your aura</p>
+                    <h4 class="warning">Requres: <span class="link-text">Hero+ status</span></h4>
+                    <p><span>Command:</span>!setraidaura <span>#</span> - Set an aura for raiding/guarding</p>
+                    <p><span>Command:</span>!setmineaura <span>#</span> - Set an aura for mining</p> 
+                    <p><span>Command:</span>!settrainaura <span>#</span> - Sets an aura for traning</p>
+                    <div class="cmd-list">
+                        <h3>List of auras:</h3>
+                        <div class="tooltip-wrapper">
+                            <span>1.) </span> Vitality
+                            <span class="tooltipC">
+                                Increases Maximum hitpoints and healing
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>2.) </span> Wisdom
+                            <span class="tooltipC">
+                                Increases experiance gain
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>3.) </span> Braveness
+                            <span class="tooltipC">
+                                Damange and critical chance increase
+                            </span>
+                        </div>
+                        <div class="tooltip-wrapper">
+                            <span>4.) </span> Abundance
+                            <span class="tooltipC">
+                                Gold & farming rate increase
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="structures section">
+                    <h2 class="command-header">Buildings</h2>
+                    <label for="How to use auras">How to use Building</label>
+                    <p class="command-description">
+                        Upgrading a building will give you benefits on that particular building and also increase your town maximum HP. A few buildings have two numbers next to them. The (x/y) indicates how many players are using the building (x) and the (y) the maximum number that that can be present at the same time
+                    </p>
+                    <p><span>Command:</span> !upg (building name) - Upgrades the building</p>
+                    <p><span>Command:</span> !voteyes - Votes yes for building upgrade</p>
+                    <p><span>Command:</span> !voteno - Votes no for building upgrade</p>
+                    <p><span>Command:</span> !buy<span>#</span> - Purchase shop item</p>
+                    <p><span>Command:</span> !farm - Farms food for the town</p>
+                    <p><span>Command:</span> !mine - Mines for gold and gems</p>
+                    <p><span>Command:</span> !enchant<span>#</span> - Upgrading your relic</p>
+                    <p><span>Command:</span> !sacrifice<span>#</span> - Sacrifice souls to start the witch</p>
+                    <p><span>Command:</span> !forge <span>#</span> - Forges / upgrades equipment</p>
+                    <p><span>Command:</span> !reforge<span>#</span> - Crafts a relic of choice</p>
+                    <p><span>Command:</span> !recycle<span>#</span> - Sells relic for gems</p>
+                    <p><span>Command:</span> !sellgem<span>#</span> - Sells X amount of gems for 1m each</p>
+                    <p><span>Command:</span> !chest<span>#</span> - Choose a chest</p>
+                </div>
+
+                <div class="extras section">
+                    <h2 class="command-header">Extras</h2>
+                    <label for="How to use auras">Utility Commands</label>
                     <p class="command-description">......................</p>
                     <p>!talent <span>#</span></p>
                     <ul>
@@ -79,17 +263,9 @@
                         <li>Aura 4</li>
                     </ul>
                 </div>
-                
-                <div class="structures section">
-                    <h2 class="command-header">Buildings</h2>
-                    <label for="How to use auras">How to use Building</label>
-                    <p class="command-description">.....................</p>
-                    <ul>Buildings
-                        <li></li>
-                    </ul>
-                </div>
             </div>
         </div>
     </div>
+    <script src="../js/talentBtn.js"></script>
 </body>
 </html>

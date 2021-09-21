@@ -63,10 +63,15 @@ p {
     color: var(--character)
 }
 
+.crit {
+    color: var(--critical);
+}
+
 .text-link {
     color: var(--text-link);
     font-weight: bold;
 }
+
 
 /*      BACKGROUNDS     */
 .warning-bg {
