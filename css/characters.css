@@ -119,7 +119,6 @@ h1, h2, h3, h4 {
 .wizard {
     background: var(--wizard);
 }
-
 /*      EXTRA RESPONSIVENESS AND DESIGN     */
 @media only screen and (max-width: 1080px) {
     .wrapper {
