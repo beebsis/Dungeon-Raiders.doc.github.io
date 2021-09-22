@@ -164,8 +164,8 @@ h1, h2, h3, h4 {
 }
 
 /*      EXTRA RESPONSIVENESS AND DESIGN     */
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 620px) {
     .skills {
-        max-width: 48px;
+        max-width: 32px;
     }
 }
