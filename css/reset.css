@@ -3,6 +3,8 @@
         /*  Exclemation mark  */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
+
 :root {
   --background: #28272E;
   --div: #34333A;
@@ -49,7 +51,8 @@
       
       body {
         margin: 0;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: 'Roboto Mono', monospace;
+        /* font-family: 'Share Tech Mono', monospace; */
         /* font-family: 'Space Mono', monospace; */
       }
       
