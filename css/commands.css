@@ -6,6 +6,11 @@ h1, h2, h3, h4 {
     margin-bottom: 2.5vw;
 }
 
+
+p {
+    font-size: 1.5em;
+}
+
 .header p {
     font-size: 2em;
     font-weight: bold;

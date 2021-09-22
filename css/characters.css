@@ -69,6 +69,7 @@ h1, h2, h3, h4 {
 
 .char-img {
     align-items: center;
+    width: auto;
 }
 
 .char-img img {
@@ -116,4 +117,50 @@ h1, h2, h3, h4 {
 
 .wizard {
     background: var(--wizard);
+}
+
+/*      EXTRA RESPONSIVENESS AND DESIGN     */
+@media only screen and (max-width: 1080px) {
+    .wrapper {
+        max-width: 95vw;
+    }
+
+    .char-info-text h2  {
+        font-size: 5vh;
+    }
+
+    .char-info-text p {
+        font-size: 1em;
+    }
+
+    .char-stats, .char-ratings {
+        font-size: 1em !important;
+    }
+    
+    .char-stats span{
+        font-size: 2vh;
+    }
+
+    .char-skills {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .skills {
+        max-width: 72px;
+    }
+    
+    .char-pic{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .shadowC {
+        box-shadow: 0px 10px 15px 2px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 0px 10px 15px 2px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px 10px 15px 2px rgba(0,0,0,0.55);
+    }
+    }
 }

@@ -40,7 +40,6 @@ a {
 
 p {
     color: var(--default-text);
-    font-size: 1.5em;
 }
 
 .warning {
