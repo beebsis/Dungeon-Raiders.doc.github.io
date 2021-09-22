@@ -36,10 +36,13 @@ span {
 }
 
 .talent-span {
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: var(--default-text);
 }
 
+.list-title {
+    margin-bottom: 1vh;
+}
 /* Font doesn't work well with list*/
 p, li {
     line-height: 2em;
