@@ -1,3 +1,7 @@
+h1, h2, h3, h4 {
+    font-size: 2em;
+}
+
 .header {
     margin-bottom: 2.5vw;
 }
@@ -16,9 +20,24 @@
     margin-bottom: 5vw;
 }
 
+.exclemation-mark {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
 span {
     font-style: italic;
     color: var(--relic);
+}
+
+.tooltip-number {
+    color: var(--relic);
+}
+
+.talent-span {
+    font-size: 1.3em;
+    color: var(--default-text);
 }
 
 /* Font doesn't work well with list*/
