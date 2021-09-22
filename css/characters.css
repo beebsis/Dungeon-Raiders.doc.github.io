@@ -1,0 +1,119 @@
+.title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+h1, h2, h3, h4 {
+    font-size: 2em;
+}
+
+.header {
+    margin-bottom: 2.5vw;
+    color: var(--relic);
+}
+
+.header p {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--relic);
+}
+
+.back-arrow{
+    padding-right: 15px;
+}
+
+.section {
+    margin-bottom: 5vw;
+    padding: 5vh;
+    background: var(--div);
+    border-radius: 15px;
+}
+
+
+.char-flex {
+    justify-content: center;
+
+}
+
+.char-info {
+    max-width: 800px;
+}
+
+.char-info h2 {
+    font-size: 2vw;
+    padding-bottom: 2vh;
+}
+
+.char-info-text {
+    text-align: center;
+}
+
+.char-info-stats {
+    justify-content: center;
+    line-height: 4vh;
+}
+.char-info-stats > div {
+    max-width: 500px;
+    margin: 2vh 2vw 2vh 2vw;
+}
+
+.char-stats, .char-ratings {
+    text-align: left;
+}
+
+.char-stats span{
+    color: var(--critical);
+    font-size: 2vh;
+}
+
+.char-img {
+    align-items: center;
+}
+
+.char-img img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    max-width: 430px;
+    width: 100%;
+    height: auto;
+}
+
+.char-skills {
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.char-skills img {
+    max-width: 72px;
+    width: 100%;
+    height: auto;
+    padding: 1vh 0 1vh 0;
+}
+
+.rogue {
+    background: var(--rogue);
+}
+
+.warrior {
+    background: var(--warrior);
+}
+
+.farmer {
+    background: var(--farmer);
+}
+
+.ranger {
+    background: var(--ranger);
+}
+
+.wizard {
+    background: var(--wizard);
+}

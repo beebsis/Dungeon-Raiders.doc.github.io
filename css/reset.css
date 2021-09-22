@@ -16,6 +16,13 @@
   --character: #9aea80;
   --text-link: #28272E;
   --critical: #fad819;
+
+  /*  CLASS COLOURS */
+  --rogue: #1d0807;
+  --warrior: #1a1e23;
+  --farmer: #1e120b;
+  --ranger: #161811;
+  --wizard: #1a0e2a; 
 }
 
 /*
