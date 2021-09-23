@@ -168,6 +168,6 @@ h1, h2, h3, h4 {
 /*      EXTRA RESPONSIVENESS AND DESIGN     */
 @media only screen and (max-width: 620px) {
     .skills {
-        max-width: 32px;
+        max-width: 60px;
     }
 }
