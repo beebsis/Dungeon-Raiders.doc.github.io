@@ -1,11 +1,9 @@
 .container {
     height: 100vh;
-    width: 100vw;
 }
 
 .wrapper {
-    width: 80vw;
-    border: 1px solid red;
+    width: 60vw;
 }
 
 h1, h2, h3, h4 {
@@ -37,4 +35,99 @@ p {
     text-align: center;
     margin-bottom: 10vh;
     margin-top: 2vh;
+}
+
+.card-flex {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    padding: 2vh 1vw 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    height: 250px;
+    text-align: center;
+    background: var(--div);
+    margin-top: 2vh;
+    border-radius: 25px;
+
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.card img {
+    height: 128px;
+    width: 128px;
+    background: var(--profile-circles);
+    border-radius: 50%;
+}
+
+.enemy-info h1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.enemy-info p {
+    margin-top: 1vh;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.enemy-info span {
+    color: var(--warning);
+}
+
+.ability-nr {
+    color: var(--relic);
+}
+
+.tooltipC {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+
+.tooltip-wrapper {
+    position: relative;
+    max-width: 200px;
+}
+
+.tooltip-wrapper .tooltipC {
+    background: var(--dark);
+    visibility: hidden;
+    padding: 20px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-wrapper .tooltipC:after {
+    content: "";
+    position: absolute;
+}
+
+.tooltip-wrapper:hover .tooltipC {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*      EXTRA RESPONSIVENESS AND DESIGN     */
+@media only screen and (max-width: 740px) {
+
+    .wrapper {
+        width: 100vw;
+    }
+
+    .ability-list {
+        padding-left: 4vw;
+    }
 }
