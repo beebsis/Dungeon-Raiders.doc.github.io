@@ -1,0 +1,69 @@
+.container {
+    max-height: 100vh;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 60vw;
+}
+
+.title {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Space Mono', monospace;
+}
+
+.header {
+    margin-bottom: 2.5vw;
+    color: var(--relic);
+}
+
+.header p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--relic);
+}
+
+.back-arrow{
+    padding-right: 15px;
+}
+
+.building-wrapper {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.building-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.building-card {
+    background: var(--div);
+    padding: 2rem;
+    border-radius: 25px;
+    margin-top: 5vh;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.building-card h2 {
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.building-info {
+    max-width: 300px;
+    padding-left: 2vw;
+}
