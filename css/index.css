@@ -17,7 +17,7 @@ a {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1rem;
 }
 .container {
     height: 100vh;
@@ -47,8 +47,8 @@ p {
 }
 
 .head-title-text {
-    margin: 0em 0em 2em 0em;
-    max-width: 70%;
+    margin-bottom: 4vh;
+    max-width: 100%;
     align-self: center;
     text-align: center;
 }
