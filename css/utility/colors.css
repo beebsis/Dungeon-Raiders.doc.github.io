@@ -1,0 +1,24 @@
+:root {
+    --background: #222831;
+    --div: #2b323d;
+    --dark: #191d24;
+    --dark2: #12151B;
+    --default-text: #EEEEEE;
+    --warning: rgb(214, 90, 49, 0.7);
+    --building: #fbc49c;
+    --utility: #89d2e7;
+    --relic: #58e4a9;
+    --character: #9aea80;
+    --text-link: #28272E;
+    --critical: #fad819;
+    --red1: #c23616;
+    --stat: #2C2F33;
+
+    /*  CHAR COLOURS */
+    --rogue: #1d0807;
+    --warrior: #262e3a;
+    --farmer: #1e120b;
+    --ranger: #161811;
+    --wizard: #1a0e2a; 
+    --profile-circles: #38404d;
+}

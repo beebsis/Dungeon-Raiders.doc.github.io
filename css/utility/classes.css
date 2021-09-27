@@ -1,0 +1,19 @@
+.warrior {
+    background-color: var(--dark);
+}
+
+.rogue {
+    background: var(--rogue);
+}
+
+.farmer {
+    background: var(--farmer);
+}
+    
+.ranger {
+    background: var(--ranger);
+}
+
+.wizard {
+    background: var(--wizard);
+}
