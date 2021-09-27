@@ -13,25 +13,6 @@
     margin-bottom: 10vh;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Space Mono', monospace;
-}
-
-.header {
-    margin-bottom: 2.5vw;
-    color: var(--relic);
-}
-
-.header p {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--relic);
-}
-
-.back-arrow{
-    padding-right: 15px;
-}
-
 .building-wrapper {
     margin: 0 auto;
     width: 90vw;

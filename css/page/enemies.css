@@ -6,30 +6,6 @@
     width: 60vw;
 }
 
-h1, h2, h3, h4 {
-    font-size: 2rem;
-}
-
-.header {
-    margin-bottom: 2.5vw;
-    color: var(--relic);
-}
-
-
-p {
-    font-size: 1rem;
-}
-
-.header p {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--relic);
-}
-
-.back-arrow{
-    padding-right: 15px;
-}
-
 .title {
     font-size: 2rem;
     text-align: center;

@@ -1,32 +1,17 @@
 .container {
     max-height: 100vh;
     overflow-x: hidden;
+    
+}
+
+.container /* Font doesn't work well with list*/
+p,
+li {
+    line-height: 2em;
 }
 
 .wrapper {
     width: 60vw;
-}
-h1, h2, h3, h4 {
-    font-size: 2rem;
-}
-
-.header {
-    margin-bottom: 2.5vw;
-}
-
-
-p {
-    font-size: 1rem;
-}
-
-.header p {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--relic);
-}
-
-.back-arrow{
-    padding-right: 15px;
 }
 
 .section {
@@ -50,28 +35,18 @@ span {
 }
 
 .talent-span {
-    font-size: 1rem;
     line-height: 2rem;
     color: var(--default-text);
 }
 
 .title {
-    font-size: 2rem;
     text-align: center;
     margin-bottom: 10vh;
     margin-top: 2vh;
 }
 
-.requirement {
-    font-size: 1.2rem;
-}
-
 .list-title {
     margin-bottom: 1vh;
-}
-/* Font doesn't work well with list*/
-p, li {
-    line-height: 2em;
 }
 
 

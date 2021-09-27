@@ -15,9 +15,6 @@ a {
     text-decoration: none;    
 }
 
-p {
-    font-size: 1rem;
-}
 .container {
     height: 100vh;
 }
@@ -98,7 +95,6 @@ p {
 }
 
 .spt a {
-    font-size: 1.5em;
     transition: all ease-in-out 0.2s
 }
 

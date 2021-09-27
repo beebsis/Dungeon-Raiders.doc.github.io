@@ -18,6 +18,26 @@ a {
     
 }
 
+.header {
+    margin-bottom: 2.5vw;
+    color: var(--relic);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.goBack {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--relic);
+}
+
+.header-update {
+    padding-left: 2vh;
+    font-weight: bold;
+    color: var(--relic)
+}
+
 .container {
     height: 100vh;
 }
@@ -176,4 +196,31 @@ p {
 
 .user-contact {
     color: var(--utility);
+}
+
+/*      EXTRA RESPONSIVENESS AND DESIGN     */
+@media only screen and (max-width: 1080px) {
+    .header {
+        top: 0;
+        color: var(--relic);
+        position: fixed;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--dark2);
+        width: 100vw;
+    
+    }
+    
+    .goBack {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--relic);
+
+    }
+    
+    .header-update {
+        padding-left: 2vh;
+        font-weight: bold;
+        color: var(--relic)
+    }
 }
