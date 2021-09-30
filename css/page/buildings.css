@@ -18,33 +18,24 @@
     width: 90vw;
 }
 
-.building-flex {
+p {
+    line-height: 1.5rem;
+}
+.building-parent {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.building-card {
-    background: var(--div);
+.box {
+    flex: 1 1 500px;
+    margin: 10px;
+    border: 1px solid var(--dark2);
+    background: var(--dark);
     padding: 2rem;
-    border-radius: 25px;
-    margin-top: 5vh;
 }
 
-.card-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.building-card h2 {
+.box h2 {
     text-align: center;
-    margin: 1rem 0 1rem 0;
-}
-
-.building-info {
-    max-width: 300px;
-    padding-left: 2vw;
+    margin: 1vh 0 1vh 0;
 }

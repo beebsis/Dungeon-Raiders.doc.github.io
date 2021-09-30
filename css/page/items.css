@@ -1,0 +1,36 @@
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 2vh;
+}
+
+.wrapper {
+    width: 60vw;
+}
+
+.item-parent {
+    width: 100%;
+}
+
+.item-column {
+    display: row;
+    flex-flow: column wrap;
+}
+
+.item-row {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--dark);
+}
+
+.item-card {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--dark2);
+}
+
+.item-h2 {
+    text-align: center;
+    margin: 2vh 0 1vh 0;
+}

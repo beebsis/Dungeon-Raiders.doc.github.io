@@ -2,6 +2,15 @@
 body {
     background-color: var(--background);
     color: white;
+    overflow-x: hidden
+}
+
+.container {
+    height: 100vh;
+}
+
+.container, .wrapper {
+    overflow-x: hidden;
 }
 
 h1, h2, h3,
@@ -218,9 +227,11 @@ p {
 
     }
     
-    .header-update {
+    .header {
         padding-left: 2vh;
         font-weight: bold;
-        color: var(--relic)
+        color: var(--relic);
+        position: fixed;
+        z-index: 999;
     }
 }
