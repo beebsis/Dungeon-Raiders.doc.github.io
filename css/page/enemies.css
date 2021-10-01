@@ -96,6 +96,14 @@
     opacity: 1;
 }
 
+@media only screen and (max-width: 965px) {
+    .wrapper {
+        width: 100vw;
+        margin-top: 10vh;
+    }
+}
+
+
 /*      EXTRA RESPONSIVENESS AND DESIGN     */
 @media only screen and (max-width: 740px) {
 

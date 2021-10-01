@@ -27,6 +27,17 @@ a {
     
 }
 
+.banner {
+    margin-bottom: 2vh;
+    
+}
+
+.banner > img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
 .header {
     margin-bottom: 2.5vw;
     color: var(--relic);
@@ -217,21 +228,20 @@ p {
         text-align: center;
         background-color: var(--dark2);
         width: 100vw;
-    
+        padding-left: 2vh;
+        font-weight: bold;
+        color: var(--relic);
+        position: fixed;
+        z-index: 999;
+    }
+
+    .banner {
+        margin-top: 10vh;
     }
     
     .goBack {
         font-size: 2rem;
         font-weight: bold;
         color: var(--relic);
-
-    }
-    
-    .header {
-        padding-left: 2vh;
-        font-weight: bold;
-        color: var(--relic);
-        position: fixed;
-        z-index: 999;
     }
 }

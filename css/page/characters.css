@@ -117,6 +117,16 @@ section {
     .class-cards {
         margin-top: 25vh;
     }
+    .character-banner {
+        height: 100%;
+    }
+    .class-info {
+        padding: 0;
+    }
+    .class-info-child {
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+    }
 }
 
 @media only screen and (max-width: 700px) {

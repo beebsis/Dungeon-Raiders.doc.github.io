@@ -95,12 +95,16 @@ span {
     margin-top: 2vw;
 }
 
-/*      EXTRA RESPONSIVENESS AND DESIGN     */
-@media only screen and (max-width: 740px) {
-
+@media only screen and (max-width: 965px) {
     .wrapper {
         width: 100vw;
+        margin-top: 10vh;
     }
+}
+
+
+/*      EXTRA RESPONSIVENESS AND DESIGN     */
+@media only screen and (max-width: 740px) {
     .command-header {
         font-size: 1.2rem;
     }

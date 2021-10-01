@@ -7,6 +7,8 @@
 
 .wrapper {
     width: 60vw;
+    position: relative;
+    padding-top: 10vh;
 }
 
 .item-parent {
@@ -21,6 +23,9 @@
 .item-row {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
     background-color: var(--dark);
 }
 
