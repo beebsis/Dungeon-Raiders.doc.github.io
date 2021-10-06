@@ -1,0 +1,173 @@
+var itemJson = {
+    id: 1,
+    itemTier1:  [
+        {
+            id: 1,
+            helmet: [
+                {
+                    title: "Helmet T1",
+                    buff: "armor buff",
+                    stats: "+6.8"
+                }
+            ],
+            id: 2,
+            chest: [
+                {
+                    title: "Chest T1",
+                    buff: "Const buff",
+                    stats: "+16.7"
+                }
+            ],
+            id: 3,
+            belt: [
+                {
+                    title: "Belt T1",
+                    buff: "HP regen buff",
+                    stats: "+24.2"
+                }
+            ],
+            id: 4,
+            pants: [
+                {
+                    title: "Pants T1",
+                    buff: "Crit Chance buff",
+                    stats: "+2.7"
+                }
+            ],
+            id: 5,
+            weapon: [
+                {
+                    title: "Weapon T1",
+                    buff: "Strenght buff",
+                    stats: "+22.4"
+                }
+            ],
+            id: 6,
+            amulet: [
+                {
+                    title: "Amulet T1",
+                    buff: "Life steal buff",
+                    stats: "+4.6"
+                }
+            ],
+            id: 7,
+            ring: [
+                {
+                    title: "Ring T1",
+                    buff: "Fury buff",
+                    stats: "+6.3"
+                }
+            ],
+            id: 8,
+            glove: [
+                {
+                    title: "Glove T1",
+                    buff: "Dexterity buff",
+                    stats: "+12.3"
+                }
+            ],
+            id: 9,
+            boot: [
+                {
+                    title: "Boot T1",
+                    buff: "Agility buff",
+                    stats: "+9.8"
+                }
+            ],
+            id: 10,
+            spellbook: [
+                {
+                    title: "Spell Book T1",
+                    buff: "Intelligence buff",
+                    stats: "+14.8"
+                }
+            ]
+        }
+    ],
+
+    id: 1,
+    itemTier2: [
+        {
+            id: 1,
+            helmet: [
+                {
+                    title: "Helmet T2",
+                    buff: "armor buff",
+                    stats: "+8.8"
+                }
+            ],
+            id: 2,
+            chest: [
+                {
+                    title: "Chest T2",
+                    buff: "Const buff",
+                    stats: "+207"
+                }
+            ],
+            id: 3,
+            belt: [
+                {
+                    title: "Belt T2",
+                    buff: "HP regen buff",
+                    stats: "+30.2"
+                }
+            ],
+            id: 4,
+            pants: [
+                {
+                    title: "Pants T2",
+                    buff: "Crit Chance buff",
+                    stats: "+5.7"
+                }
+            ],
+            id: 5,
+            weapon: [
+                {
+                    title: "Weapon T2",
+                    buff: "Strenght buff",
+                    stats: "+28.4"
+                }
+            ],
+            id: 6,
+            amulet: [
+                {
+                    title: "Amulet T2",
+                    buff: "Life steal buff",
+                    stats: "+7.6"
+                }
+            ],
+            id: 7,
+            ring: [
+                {
+                    title: "Ring T2",
+                    buff: "Fury buff",
+                    stats: "+12.3"
+                }
+            ],
+            id: 8,
+            glove: [
+                {
+                    title: "Glove T2",
+                    buff: "Dexterity buff",
+                    stats: "+14.3"
+                }
+            ],
+            id: 9,
+            boot: [
+                {   
+                    title: "Boot T2",
+                    buff: "Agility buff",
+                    stats: "+12.8"
+                }
+            ],
+            id: 10,
+            spellbook: [
+                {
+                    title: "Spell Book T2",
+                    buff: "Intelligence buff",
+                    stats: "+24.8"
+                }
+            ]
+        }
+    ],
+};
